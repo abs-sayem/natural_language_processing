@@ -1,0 +1,15 @@
+Course Outline
+
+    >NLP Fundamentals
+        > Bag-of-Words
+        > Word vectors
+    > Misc NLP Techniques
+        > Regex
+        > Stemming and Lemmatization
+        > Spell Correction
+        > Parts-of-Speech Tagging
+        > Few other Techniques
+    > State-of-the-Art Models
+        > Recurrent Neural Nets
+        > Attention all you need and Transformers
+        > OpenAI GPT, BERT etc.
