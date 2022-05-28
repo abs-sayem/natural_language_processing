@@ -50,7 +50,7 @@ class TweetDataset:
         targets_start = [0] * len(targets)
         targets_end = [0] * len(targets)
 
-        non_zero = np.non_zero(targets)[0]  # Take the indices
+        non_zero = np.nonzero(targets)[0]  # Take the indices
         if(len(non_zero) > 0):
             targets_start[non_zero[0]] = 1
             targets_end[non_zero[-1]] = 1
