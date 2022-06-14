@@ -76,9 +76,9 @@ print("Total Patterns: ", number_of_patterns)
 ```
 # Step-1: transform the list input sequence
 X = numpy.reshape(dataX, (number_of_patterns, sequence_length, 1))
-#Step-2: rescale the input
+# Step-2: rescale the input
 X = X / float(total_vocab)
-#Step-3: convert the output patterns into one-hot-encodding
+# Step-3: convert the output patterns into one-hot-encodding
 y = np_utils.to_categorical(dataY)
 ```
 #### *Define the LSTM Model ---*
