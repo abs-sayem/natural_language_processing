@@ -48,6 +48,7 @@
     > Remove - new-line/tab, punctuations, special-characters, stop-words
 > Exploratory Data Analysis
     > like - finding vocabulary-size, most-common-words(profanity), create word-clouds, isolate bad-words
+    > Word Embedding - Bag-of-Words, Word2Vec, Count-Vectorizer, Tf-Idf
 > Sentiment Analysis
     > Determine - positive/Negetive/Neutral sentiment of the text
 > Text Generation
