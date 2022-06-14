@@ -2,9 +2,8 @@
 
 #### Setup Steps
 Go to github.com/adashofdata and follow the four steps in the README.md file.
-1. Download Anaconda
-2. Download nlp-in-python-tutorial repo on Github
-3. Test to see if you can open a Jupyter Notebook
+1. Download Visual Studio Code
+2. Download total_nlp-alice_xhao repo on Github
 4. Download additional packages - wordcloud, textblob, gensim
 
 #### Resources
