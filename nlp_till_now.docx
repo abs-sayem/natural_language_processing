@@ -1,0 +1,57 @@
+> Basic Steps
+    > NLTK - 
+        > Tokenization
+            > Word Tokenization - word_tokenize - (from nltk.tokenize import word_tokenize)
+            > Sentence Tokenization - sent_tokenize - (from nltk.tokenize import sent_tokenize)
+            > Bi-Gram, Ti-Gram, N-Gram
+        > Stemming
+            > Porter Stemmer - PorterStemmer() - (from nltk.stem import PorterStemmer)
+            > Lancaster Stemmer - LancasterStemmer() - (from nltk.stem import LancasterStemmer)
+            > Snowball Stemmer - SnowballStemmer('english') - (from nltk.stem import SnowballStemmer)
+        > Lemmatization
+            > WordNet Lemmatizer - WordNetLemmatizer() - (from nltk.stem import WordNetLemmatizer)
+        > POS Tag
+            > nltk.pos_tag()
+        > NER
+        > Stop Words
+            > stop_words = set(stopwords.words('english')) - (from nltk.corpus import stopwords)
+
+    > RegEx (Regular Expression) - (import re)
+        > 
+
+    > Spacy - 
+        > Models for English Language - en_core_web_sm/md/lg - (spacy.cli.download("en_core_web_sm/md/lg"))
+        > Tokenization
+            > Word Tokenization - (
+                doc = nlp(text)
+                tokens = [tokens.append(token.text) for token in doc]
+                )
+            > Sentence Tokenization - (
+                nlp = English() 
+                sbd = nlp.create_pipe('sentencizer') 
+                nlp.add_pipe(sbd)
+                doc = nlp(text)
+                sents_list = [sents_list.append(sent.text) for sent in doc]
+                ) 
+
+    > Keras
+        > Word Tokenization - text_to_word_sequence() - (from keras.preprocessing.text import text_to_word_sequence)
+
+    > Gensim
+        > Tokenization
+            > Word Tokenization - tokenize() - (from gensim.utils import tokenize)
+            > Sentence Tokenization - split_sentences() - (from gensim.summarization.textcleaner import split_sentences)
+    > PyPDF2
+        > PdfFileReader, ExtractText, GetAnyNumber, GetContactNumber, GetDate, GetEmail, GetName
+
+> Preprocessing
+    > Remove - new-line/tab, punctuations, special-characters, stop-words
+> Exploratory Data Analysis
+    > like - finding vocabulary-size, most-common-words(profanity), create word-clouds, isolate bad-words
+> Sentiment Analysis
+    > Determine - positive/Negetive/Neutral sentiment of the text
+> Text Generation
+    > Generate - character wise
+> Question-Answering
+    > Intent based
+    > Finding answer from text
