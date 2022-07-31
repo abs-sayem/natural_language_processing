@@ -21,6 +21,7 @@ Follow the steps-
 4. Run the 'generate_text.py' file
 ```
 More details here - *https://github.com/abs-sayem/nlp/tree/main/character_wise_text_generation#readme*
+
 **NLP Basics**
 ```
 NLP Preprocessing
